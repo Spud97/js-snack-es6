@@ -9,3 +9,6 @@ subiti e stampiamo tutto in console.
 
 -------------------------------------------------------------------------
 
+-Creo l'array e compilo solo la proprietà Nome
+-Creo una function per generare dei numeri random da assegnare a punti fatti e falli subiti
+-Creo un array con la destrutturazione e stampo
