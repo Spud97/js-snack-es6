@@ -9,15 +9,15 @@ let students = [
 ];
 let newStudents = [];
 
-students.forEach((name) => {
-  const upperName = name.toUpperCase();
+students.forEach((student) => {
+  const upperName = student.name.toUpperCase();
   newStudents.push(upperName);
 });
 
 console.table(newStudents);
 
-const over70 = students.filter((grades) => grades > 70);
+const over70 = students.filter((student) => student.grades > 70);
 console.log(over70);
 
-const idOver120 = students.filter((id, grades) => grades > 70 && id > 120);
+const idOver120 = students.filter((student) => student.grades > 70 && student.id > 120);
 console.log(idOver120);
